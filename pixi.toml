@@ -1,9 +1,9 @@
 [project]
 name = "trade-help"
 channels = ["conda-forge"]
-dependencies = [
-    "python=3.11",
-    "fastapi",
-    "uvicorn",
-    "pytest",
-]
+platforms = ["win-64"]
+
+[dependencies]
+fastapi = "*"
+uvicorn = "*"
+
