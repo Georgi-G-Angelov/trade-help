@@ -1,0 +1,9 @@
+[project]
+name = "trade-help"
+channels = ["conda-forge"]
+dependencies = [
+    "python=3.11",
+    "fastapi",
+    "uvicorn",
+    "pytest",
+]
